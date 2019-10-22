@@ -1,0 +1,17 @@
+Part 1:
+I prefer using approximation to fit the datasets. We usually need very high degree functions to interpolate the data, but because of Runge's Phenomenon, the behaviour of the function becomes weird, unstable and extreme, it does not really predict the trend and cannot show any pattern of the dataset. But when the data is very organized (extremely small errors, data points follow an exact pattern), interpolation could be a choice used to find relations within the dataset.
+
+Part 2, dataset I:
+Type: Interpolation
+Model: f(x) = 486 - 4.86x^2
+The function fits data very well, because it follows gravitation law. 4.86 * 2 = 9.71 which is really close to gravity of the Earth, the data is recorded every 0.5 second.
+
+Part 2, dataset II:
+Type: Approximation
+Model: f(x) = -0.133 + 0.0067x + 1.0114x^2
+The function does not fit data very well, but a degree-2 polynomial is enough to show the trend and pattern of the data. Points have derivative from -10 to 10, the total area under the curve is 82.9533.
+
+Part 2, Dataset IV:
+Type: Approximation
+Model: f(x) = -0.5x^2 + 0.3*sin(10x)
+The function fit data very well, it is almost an interpolation, the drift in the data is 0.3*sin(10x) and the overall trend is -0.5x^2.

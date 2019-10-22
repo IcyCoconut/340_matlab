@@ -1,0 +1,5 @@
+lab1_3a: I do not think this solution is better, I have tried many 9-row combinations and they give me different answers. Besides, matlab's "\" operator rounds result in an unexpected way, for example, when the result is expected to be 0, but matlab may give a result that is extremely close to 0.
+
+lab1_3b: whenwe want to solve for x in Ax = b, only the number of rows in A equal to number of rows in x is not enough, we need the rank of A equal to the number of rows in x, so we usually need more rows in A. For example, if we have 16 rows in x, we may need more than 16 rows in A to solve this x.
+
+lab1_3c1: The word is "SCIENCE"
